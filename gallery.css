@@ -76,6 +76,7 @@ img {
     transition: all .5s ease-out 0s;
 }
 
-.imagem:hover:after {
+.imagem:hover::after {
     opacity: 0;
+    pointer-events: none;
 }
